@@ -47,8 +47,12 @@ wp-config.php
 # uncomment the next line
 #/wp-content/themes
 
-
-
+# Various IDE caching
 .DS_Store
 .idea
 wp-content/.DS_Store
+
+# Node modules as we only use it to compile Tailwind
+node_modules
+package-lock.json
+package.json
